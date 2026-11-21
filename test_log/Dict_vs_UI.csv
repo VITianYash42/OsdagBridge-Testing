@@ -1,0 +1,27 @@
+UI field,What I entered,.osi key,.osi value,Match?
+Structure type,Highway Bridge,structure.type,Highway Bridge,Yes
+Location (state),"Ratlam, Madhya Pradesh",project.location.state,Madhya Pradesh,Yes
+Location (latitude),Ratlam,project.location.latitude,23.3341,Yes
+Location (longitude),Ratlam,project.location.longitude,75.0367,Yes
+Span (m),30,geometry.span,30 (stored as text),Yes
+Carriageway width (m),7.5,geometry.carriageway_width,7.5 (stored as text),Yes
+Include median,No,geometry.include_median,No,Yes
+Footpath,None,geometry.footpath,None,Yes
+Skew angle (deg),0,geometry.skew_angle,0 (stored as text),Yes
+Design type,Optimized,geometry.design_mode,Optimized,Yes
+No. of girders,4,typical_section.no_of_girders,4,Yes
+Girder spacing (m),2.10,typical_section.girder_spacing,2.1,Yes
+Deck overhang (m),1.05,typical_section.deck_overhang,1.05,Yes
+Overall bridge width (m),8.40,typical_section.overall_bridge_width,8.4,Yes
+Deck thickness (mm),250,typical_section.deck_thickness,250.0,Yes
+Girder steel,custom_steel_355_490,material.girder,custom_steel_355_490,Yes
+Girder density,77,material.girder.density,77,Yes
+Girder Fy (MPa),355,material.girder.fy,355,Yes
+Girder Fu (MPa),490,material.girder.fu,490,Yes
+Girder E (GPa),205,material.girder.e,205,Yes
+Girder G (GPa),78.8,material.girder.g,78.8,Yes
+Girder Poisson ratio,0.3,material.girder.poisson,0.3,Yes
+Girder thermal coefficient,12,material.girder.thermal,12,Yes
+Cross bracing steel,E 350A,material.cross_bracing,E 350A,Yes
+End diaphragm steel,E 350A,material.end_diaphragm,E 350A,Yes
+Deck concrete,M40,material.deck,M40,Yes

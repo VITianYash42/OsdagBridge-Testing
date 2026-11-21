@@ -1,0 +1,19 @@
+diff --git a/src/osdagbridge/core/bridge_types/plate_girder/defaults.py b/src/osdagbridge/core/bridge_types/plate_girder/defaults.py
+index 3fb466b..b3b7042 100644
+--- a/src/osdagbridge/core/bridge_types/plate_girder/defaults.py
++++ b/src/osdagbridge/core/bridge_types/plate_girder/defaults.py
+@@ -552,10 +552,13 @@ def _on_no_of_girders_changed(working_input_dict: dict) -> None:
+     for girder_idx in range(1, count + 1):
+         working_input_dict[f"{KEY_MP_GD_SELECT_GIRDER}.G{girder_idx}"] = f"G{girder_idx}"
+         seg_table_key = f"{KEY_MP_GD_SEGMENT_TABLE}.G{girder_idx}"
+-        if seg_table_key not in working_input_dict:
++        segs = working_input_dict.get(seg_table_key)
++        if not segs:
+             working_input_dict[seg_table_key] = [
+                 {"id": f"G{girder_idx}M1", "start": 0.0, "end": span}
+             ]
++        else:
++            segs[-1]["end"] = span
+ 
+     # --- Per-girder/member section-input defaults: <base_key>.G{n}.M{m} ---
+     # KEY_MP_GD_MEMBER_ID lives under "member_properties.member_id" (not
