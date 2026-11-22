@@ -5,6 +5,8 @@ Functional testing of the OsdagBridge short-span steel girder bridge module (pla
 - **Tester:** Yash Singhal (GitHub: VITianYash42)
 - **Environment:** Windows 11, Python 3.12, conda env `osdagbridge-env`, repository `Nidhikhare12/OsdagBridge`, branch `dev`, commit `d74f56d`, source unmodified (except the local test described in T05C, which was reverted)
 - **Collaborator:** Nidhikhare12 (invited)
+- **Report:** [Osdag_Testing_Report.pdf](Osdag_Testing_Report.pdf)
+- **Video:** (link will be added after upload)
 
 ## Summary
 
