@@ -10,7 +10,7 @@ Functional testing of the OsdagBridge short-span steel girder bridge module (pla
 
 ## Summary
 
-18 test cases were executed: 9 pass, 8 fail, 1 observation. The full log (inputs, expected, actual, result, evidence and issue numbers) is in `test_log/Osdag_Test_Log_final.xlsx`.
+18 test cases were executed: 9 pass, 8 fail, 1 observation. The full log (inputs, expected, actual, result, evidence and issue numbers) is in `test_log/FOSSEE (osdag).xlsx`.
 
 | ID | What was tested | Result |
 |---|---|---|
